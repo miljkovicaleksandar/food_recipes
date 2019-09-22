@@ -1,0 +1,87 @@
+nav{
+    background-color: #f1f1f1ed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+    align-items: center;
+}
+.search_recipes_input{
+    position: relative;
+    font-size: 25px;
+    border-radius: 52px;
+    outline:none;
+    border:2px solid #aaa;
+    padding-left: 20px;
+}::placeholder{
+    padding: 25px;
+    color:#bec4c0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    border: 1px solid #aaa;
+    padding: 15px;
+    transform: translate(-85px, 47px);
+    background-color: #f1f1f1ed;
+    -webkit-box-shadow: 0px 1px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 11px -4px rgba(0,0,0,0.75);
+visibility: visible;
+
+
+    input{
+        border:1px solid #aaa;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    button{
+        width: 65%;
+        border-radius: 15px;
+        background-color: orange;
+        border-color: orange;
+        border:1px;
+        padding: 2px;
+        color: #fff;
+        
+        
+    }:hover{
+        cursor: pointer;
+        background-color: #fff;
+        color: orange;
+        transition: 0.3s ease all;
+    }:focus{
+        outline: none;
+    }
+}
+// .form_decoration{
+//     position: absolute;
+//     height: 15px;
+//     width: 15px;
+//     border: 1px solid #aaa;
+//     transform: translate(4px,40px) rotate(45deg);
+//     background-color: #f1f1f1ed;
+
+// }
+.fa-search{
+    position: absolute;
+    transform: translate(-38px, 8px);
+    color: #aaa;
+}
+.nav_bar_info{
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    a{
+        margin-right: 30px;
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+}
